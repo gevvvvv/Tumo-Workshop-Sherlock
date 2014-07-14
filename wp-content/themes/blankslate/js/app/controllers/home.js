@@ -1,5 +1,6 @@
-app.home = {
-	init: function() {
-	
+app.home={
+	init:function()
+	{
+		
 	}
-};
+}
