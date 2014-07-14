@@ -14,12 +14,10 @@ UTIL = {
         var bodyId = document.body.id;
 
         // hit up common first.
-        UTIL.fire('common');
-		
+        UTIL.fire('common');	
 		UTIL.fire(bodyId);
         // do all the classes too.
         $.each(document.body.className.split(/\s+/),function(i,classnm){
-            
             UTIL.fire(bodyId,classnm);
         });
 

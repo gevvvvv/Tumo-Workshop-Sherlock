@@ -1,6 +1,5 @@
 app.home = {
-	init function()
-	{
-		alert("|wsdfsfv");
+	init: function() {
+	
 	}
-}
+};
