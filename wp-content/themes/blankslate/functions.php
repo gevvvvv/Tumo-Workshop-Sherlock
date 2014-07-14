@@ -78,3 +78,33 @@ function page_body_id() {
 
     return $page;
 }
+
+add_action( 'init', 'post_type_characters' );
+
+function post_type_characters() {
+    $labels = array(
+        'name'               => _x( 'Actors', 'post type general name' ),
+        'singular_name'      => _x( 'Actors', 'post type singular name' ),
+        'add_new'            => _x( 'Add New', 'Actors' ),
+        'add_new_item'       => __( 'Add New Actors' ),
+        'edit_item'          => __( 'Edit Actors' ),
+        'new_item'           => __( 'New Actors' ),
+        'all_items'          => __( 'All Actors' ),
+        'view_item'          => __( 'View Actors' ),
+        'search_items'       => __( 'Search Actors' ),
+        'not_found'          => __( 'No Actors found' ),
+        'not_found_in_trash' => __( 'No Actors found in the Trash' ),
+        'parent_item_colon'  => '',
+        'menu_name'          => 'Actors'
+    );
+    $args = array(
+        'labels'        => $labels,
+        'description'   => 'Holds our Actors and Actors specific data',
+        'public'        => true,
+        'menu_position' => 5,
+        'supports'      => array( 'title', 'editor', 'thumbnail', ),
+        'has_archive'   => true,
+        'rewrite'       => array('slug' => 'Actors')
+    );
+    register_post_type( 'Actors', $args );
+}

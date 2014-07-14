@@ -10,9 +10,7 @@
 <script type="text/javascript" src="<?=get_template_directory_uri();?>/js/app.js"></script>
 </head>
 
-
 <body id="<?php echo page_body_id(); ?>" <?php body_class(); ?>>
-
 <div id="wrapper" class="hfeed">
 <header id="header" role="banner">
 <section id="branding">
