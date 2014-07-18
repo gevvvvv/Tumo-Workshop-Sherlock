@@ -12,6 +12,8 @@ background-image:url('../images/backgrounds/Untitled.jpg') ;
 background-attachment:fixed;
 }
 
+
+
 #a{
 	position:absolute;
 	left: 39%;
@@ -135,32 +137,57 @@ td{
 	margin:0 auto;
 	
 }
+#menu-main-nav
+{
+	text-align:center;
+	font-size:20px;
+}
+#search
+{
+	text-align:right;
+	font-size:20px;
+}
+#site-title
+{
+	text-align:center;
+	font-size:50px;
+	font-family:"Times New Roman",Georgia,Serif;
 
 
-#ba,#be,#bc,#bb,#bf,#bg{
-	padding:5px;}
+}
+
+
+#menu-item-27,#menu-item-232,#menu-item-233,#menu-item-30,#menu-item-28,#menu-item-31,#menu-item-29{
+	padding:5px;
+	display: inline;
+	
+	}
 
 	/*border-width:4px;
 	font-size:larger;
 
-#ba:hover{
+#menu-item-27:hover{
 	background-color:#FFFFFF;	
 }
 
-#bb:hover{
+#menu-item-232:hover{
 	background-color:#FFFFFF;	
 }
 
-#bc:hover{
+#menu-item-233:hover{
 	background-color:#FFFFFF;	
 }
 
-#be:hover{
+#menu-item-30:hover{
 	background-color:#FFFFFF;	
 }
 
 
-#bf:hover{
+#menu-item-28:hover{
+	background-color:#FFFFFF;	
+}
+
+#menu-item-29:hover{
 	background-color:#FFFFFF;	
 }*/
 
