@@ -1,16 +1,20 @@
 app = {}, UTIL = {
-    fire: function(n, i, o) {
-        var e = app;
-        i = void 0 === i ? "init" : i, "" !== n && e[n] && "function" == typeof e[n][i] && e[n][i](o);
+    fire: function(o, n, i) {
+        var c = app;
+        n = void 0 === n ? "init" : n, "" !== o && c[o] && "function" == typeof c[o][n] && c[o][n](i);
     },
     loadEvents: function() {
-        var n = document.body.id;
-        UTIL.fire("common"), UTIL.fire(n), $.each(document.body.className.split(/\s+/), function(i, o) {
-            UTIL.fire(n, o);
+        var o = document.body.id;
+        UTIL.fire("common"), UTIL.fire(o), $.each(document.body.className.split(/\s+/), function(n, i) {
+            UTIL.fire(o, i);
         }), UTIL.fire("common", "finalize");
     }
 }, $(document).ready(UTIL.loadEvents), app.common = {
-    init: function() {},
+    init: function() {
+        $(document).scroll(function() {
+            $(document).scrollTop() >= 300 ? $(".UpArrow").css("display", "block") : 300 > $(document).scrollTop() && $(".UpArrow").css("display", "none");
+        }), $(".UpArrow").click(function() {});
+    },
     finalize: function() {}
 }, app.home = {
     init: function() {}

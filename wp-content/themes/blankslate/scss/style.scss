@@ -130,6 +130,7 @@ td{
 	margin:0 auto;
 	border-color:#333;
 	background-color:rgba(100,100,100,0.75);
+
 }
 
 .o{
@@ -273,4 +274,19 @@ h1,h2,h3,h4,h5,h6{
 
 audio { 
    display:none;
+}
+.UpArrow
+{
+	display:none;
+	width:100px;
+	height:100px;
+	position:fixed;
+	left:90%;
+	top:70%;
+	background-color:#c6c6c6;
+	opacity:0.3;
+}
+.UpArrow:hover
+{
+	opacity:1;
 }
