@@ -1,16 +1,13 @@
 /* CSS Document */
 /* line 3, scss/style.scss */
+
 body {
-  background-image: url("images/backgrounds/Untitled.jpg");
+  background-image: url("images/backgrounds/black.jpg");
   background-attachment: fixed;
 }
 
 /* line 11, scss/style.scss */
-#back {
-  height: 1024px;
-  width: 768px;
-  background-color: black;
-}
+
 
 /* line 17, scss/style.scss */
 #a {
@@ -34,7 +31,7 @@ body {
 /* line 35, scss/style.scss */
 p {
   color: #ffffff;
-  font-family: Comic Sans MS;
+  font-family: Georgia;
 }
 
 /* line 40, scss/style.scss */
@@ -69,7 +66,7 @@ p {
 a {
   text-decoration: none;
   color: #ffffff;
-  font-family: Georgia;
+  font-family: Arial ;
 }
 
 /* line 73, scss/style.scss */
@@ -138,12 +135,12 @@ table img {
 /* line 123, scss/style.scss */
 td {
   color: #fffffff;
-  font-family: Comic Sans MS;
+  font-family: Georgia;
 }
 
 /* line 128, scss/style.scss */
 .y {
-  width: 1400px;
+  width: 1200px;
   height: 710px;
   border-color: #ffffff;
   background-color: rgba(0, 0, 0, 0.75);
@@ -151,7 +148,7 @@ td {
 }
 
 #searchform{
-	width: 1750px;
+	width: 1550px;
 }
 
 #branding{
@@ -222,7 +219,7 @@ td {
 /* line 194, scss/style.scss */
 h1, h2, h3, h4, h5, h6 {
   color: #ffffff;
-  font-family: Comic Sans MS;
+  font-family: Georgia;
 }
 
 /* line 198, scss/style.scss */
