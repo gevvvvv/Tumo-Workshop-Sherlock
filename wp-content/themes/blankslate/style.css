@@ -1,1 +1,294 @@
-@import "scss/style.scss"
+/* CSS Document */
+/* line 3, scss/style.scss */
+body {
+  background-image: url("images/backgrounds/Untitled.jpg");
+  background-attachment: fixed;
+}
+
+/* line 11, scss/style.scss */
+#a {
+  position: absolute;
+  left: 39%;
+  border: 50px;
+}
+
+/* line 17, scss/style.scss */
+#in {
+  position: absolute;
+  left: 40%;
+  border: 50px;
+}
+
+/* line 23, scss/style.scss */
+#b {
+  width: 80%;
+}
+
+/* line 29, scss/style.scss */
+p {
+  color: #ffffff;
+  font-family: Comic Sans MS;
+}
+
+/* line 34, scss/style.scss */
+#e img {
+  width: 130px;
+  height: 160px;
+  float: left;
+}
+
+/*#r{
+	position:relative;
+	left:500px;
+	
+}
+
+#p{
+	position:relative;
+	top:-450px;
+	left:600px;
+}*/
+/* line 52, scss/style.scss */
+.b {
+  font-size: 48px;
+}
+
+/* line 56, scss/style.scss */
+.c {
+  font-size: 48px;
+}
+
+/* line 61, scss/style.scss */
+a {
+  text-decoration: none;
+  color: #ffffff;
+  font-family: Comic Sans MS;
+}
+
+/* line 67, scss/style.scss */
+#b div {
+  display: inline;
+}
+
+/* line 71, scss/style.scss */
+#bd img {
+  position: relative;
+  top: 6px;
+}
+
+/* line 76, scss/style.scss */
+#b {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* line 84, scss/style.scss */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* line 89, scss/style.scss */
+.a {
+  width: 20%;
+}
+
+/* line 93, scss/style.scss */
+.b {
+  width: 40%;
+}
+
+/* line 97, scss/style.scss */
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+/* line 102, scss/style.scss */
+.c {
+  width: 40%;
+}
+
+/* line 106, scss/style.scss */
+td {
+  height: 30px;
+  padding: 100px;
+  vertical-align: bottom;
+}
+
+/* line 112, scss/style.scss */
+table img {
+  width: 200px;
+  height: 300px;
+}
+
+/* line 117, scss/style.scss */
+td {
+  color: #fffffff;
+  font-family: Comic Sans MS;
+}
+
+/* line 122, scss/style.scss */
+.y {
+  width: 1400px;
+  margin: 0 auto;
+  border-color: #333;
+  border-radius: 25px;
+}
+
+/* line 129, scss/style.scss */
+.o {
+  width: 1900px;
+  margin: 0 auto;
+}
+
+/* line 135, scss/style.scss */
+#menu-main-nav {
+  text-align: center;
+  font-size: 20px;
+}
+
+/* line 140, scss/style.scss */
+#search {
+  text-align: right;
+  font-size: 20px;
+}
+
+/* line 145, scss/style.scss */
+#site-title {
+  text-align: center;
+  font-size: 50px;
+  font-family: "Times New Roman",Georgia,Serif;
+}
+
+/* line 154, scss/style.scss */
+#menu-item-27, #menu-item-232, #menu-item-233, #menu-item-30, #menu-item-28, #menu-item-31, #menu-item-29 {
+  padding: 5px;
+  display: inline;
+}
+
+	/*border-width:4px;
+	font-size:larger;
+
+#menu-item-27:hover{
+	background-color:#FFFFFF;	
+}
+
+#menu-item-232:hover{
+	background-color:#FFFFFF;	
+}
+
+#menu-item-233:hover{
+	background-color:#FFFFFF;	
+}
+
+#menu-item-30:hover{
+	background-color:#FFFFFF;	
+}
+
+
+#menu-item-28:hover{
+	background-color:#FFFFFF;	
+}
+
+#menu-item-29:hover{
+	background-color:#FFFFFF;	
+}*/
+/* line 188, scss/style.scss */
+h1, h2, h3, h4, h5, h6 {
+  color: #ffffff;
+  font-family: Comic Sans MS;
+}
+
+/* line 192, scss/style.scss */
+.c {
+  color: #ffffff;
+}
+
+/* line 195, scss/style.scss */
+#e img {
+  width: 250px;
+  height: 300px;
+}
+
+/* line 201, scss/style.scss */
+.y a {
+  float: left;
+}
+
+/* line 205, scss/style.scss */
+.aa img {
+  width: 280px;
+  height: 350px;
+}
+
+/* line 210, scss/style.scss */
+#f {
+  clear: left;
+}
+
+/* line 214, scss/style.scss */
+.e {
+  float: right;
+}
+
+/* line 218, scss/style.scss */
+#ee {
+  width: 50px;
+  height: 50px;
+  position: relative;
+  left: 10px;
+  top: 20px;
+}
+
+/* line 226, scss/style.scss */
+#eee {
+  padding: 15px;
+  float: left;
+}
+
+/*.o{
+	position:fixed;	
+}*/
+/* line 235, scss/style.scss */
+.ef {
+  float: left;
+  width: 450px;
+  height: 382px;
+}
+
+/* line 242, scss/style.scss */
+.h {
+  float: left;
+  width: 800px;
+  height: 800px;
+}
+
+/* line 248, scss/style.scss */
+.eg {
+  clear: both;
+}
+
+/* line 252, scss/style.scss */
+#aa {
+  width: 250px;
+  border: solid 3px #ffffff;
+  height: 300px;
+}
+
+/* line 257, scss/style.scss */
+#y img {
+  width: 250px;
+  border: solid 3px #ffffff;
+  height: 300px;
+}
+
+/* line 264, scss/style.scss */
+.entry-title {
+  color: black;
+}
+
+/* line 268, scss/style.scss */
+audio {
+  display: none;
+}
