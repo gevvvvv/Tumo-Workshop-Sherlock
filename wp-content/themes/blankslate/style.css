@@ -280,6 +280,10 @@ h1, h2, h3, h4, h5, h6 {
   border: solid 3px #ffffff;
   height: 300px;
 }
+#y
+{
+  margin-top: 
+}
 
 /* line 260, scss/style.scss */
 .entry-title {
@@ -291,9 +295,24 @@ h1, h2, h3, h4, h5, h6 {
   list-style: none;
   width: 100px;
   position: absolute;
-  left: 70%;
+  left: 53%;
 }
 .menu-item-31:hover .sub-menu
 {
   display: block;
+}
+.UpArrow
+{
+  display:none;
+  width:100px;
+  height:100px;
+  position:fixed;
+  left:90%;
+  top:70%;
+  background-color:#c6c6c6;
+  opacity:0.3;
+}
+.UpArrow:hover
+{
+  opacity:1;
 }
