@@ -1,0 +1,13 @@
+body{
+	background-color: silver;
+}
+
+#slyder{
+	background-color: white;
+	overflow-x: hidden;
+	overflow-y:hidden;
+}
+
+#scrollDiv{
+	overflow-x: hidden; 
+}
