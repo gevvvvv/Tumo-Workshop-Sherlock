@@ -44,17 +44,6 @@ p{
 	
 }
 
-/*#r{
-	position:relative;
-	left:500px;
-	
-}
-
-#p{
-	position:relative;
-	top:-450px;
-	left:600px;
-}*/
 .b{
 	font-size:48px;
 }
@@ -130,8 +119,9 @@ td{
 	margin:0 auto;
 	border-color:#333;
 	background-color:rgba(100,100,100,0.75);
+	}
 
-.o{
+.o {
 	width:1900px;
 	margin:0 auto;
 	
@@ -236,9 +226,7 @@ h1,h2,h3,h4,h5,h6{
 	float:left;
 }
 
-/*.o{
-	position:fixed;	
-}*/
+
 
 .ef{
 	float:left;
@@ -273,6 +261,3 @@ h1,h2,h3,h4,h5,h6{
 	color:rgba(0,0,0,1);
 }
 
-audio { 
-   display:none;
-}
